@@ -1,4 +1,4 @@
-package java.src.entity1;
+package src.entity1;
 
 public class Main {
 
