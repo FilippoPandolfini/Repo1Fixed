@@ -1,0 +1,88 @@
+Exercise 1: Creating a Basic Class and Instances
+
+Objective:
+Learn how to define a class, create attributes, add methods, and instantiate objects.
+
+Task:
+	•	Define a Class: Create a class called Person with private attributes like name and age.
+	•	Create Methods: Add a method such as greet() that prints a greeting message using the person’s name.
+	•	Instantiate Objects: In your main method, create several instances of Person and call the greet() method on each.
+
+Hints:
+	•	Use constructors to initialize the attributes.
+	•	Practice encapsulation by using getters and setters if needed.
+
+⸻
+
+Exercise 2: Adding Functionality with Methods
+
+Objective:
+Understand how to write methods (functions) that perform actions or computations.
+
+Task:
+	•	Create a Calculator Class: Write a class named Calculator that has methods for basic operations (e.g., add, subtract, multiply, and divide).
+	•	Method Parameters: Each method should take in two numbers and return the result.
+	•	Test the Class: In your main method, create an instance of Calculator and perform several calculations, printing the results.
+
+Hints:
+	•	Handle edge cases such as division by zero.
+	•	Consider using both instance methods and static methods to see the difference.
+
+⸻
+
+Exercise 3: Introduction to Inheritance
+
+Objective:
+Learn how to use inheritance to create a base class and extend it.
+
+Task:
+	•	Define a Base Class: Create an abstract class or a concrete class named Animal with a method makeSound().
+	•	Create Subclasses:
+	•	Create a subclass Dog that overrides makeSound() to print “Woof!”
+	•	Create another subclass Cat that overrides makeSound() to print “Meow!”
+	•	Polymorphism: In your main method, declare an array (or list) of Animal references and instantiate both Dog and Cat objects. Loop through the array and call makeSound() on each instance.
+
+Hints:
+	•	Demonstrate method overriding.
+	•	Optionally, make the base class abstract if you don’t want to allow direct instantiation of Animal.
+
+⸻
+
+Exercise 4: Working with Inheritance and Additional Attributes
+
+Objective:
+Practice inheritance by adding attributes and specialized behavior.
+
+Task:
+	•	Create a Vehicle Hierarchy:
+	•	Define a base class Vehicle with attributes like brand and a method start().
+	•	Create subclasses Car and Motorcycle.
+	•	Customize Behavior:
+	•	In Car, add an attribute such as numberOfDoors and override start() to include a message about the car starting.
+	•	In Motorcycle, add an attribute like hasSidecar and override start() appropriately.
+	•	Test the Hierarchy: Create instances of both Car and Motorcycle, set their specific attributes, and call the start() method on each.
+
+Hints:
+	•	Consider using constructors in the subclasses to set both the inherited attributes and the new attributes.
+	•	Use polymorphism to handle both types in a collection if you’re comfortable with arrays or lists.
+
+⸻
+
+Exercise 5: Combining Concepts into a Small Application
+
+Objective:
+Integrate classes, methods, instances, and inheritance into one cohesive program.
+
+Task:
+	•	Scenario: Create a simple simulation of a zoo.
+	•	Classes to Create:
+	•	A base class Animal (similar to Exercise 3) with common attributes (like name and age) and methods.
+	•	Several subclasses (e.g., Lion, Elephant, Monkey), each with its own version of a method like makeSound() or move().
+	•	Zoo Class:
+	•	Create a Zoo class that holds a collection of Animal objects.
+	•	Add methods to add an animal, remove an animal, and display all animals along with the sound they make.
+	•	Testing: In your main method, create a Zoo instance, add several animals of different types, and iterate through them to display their behaviors.
+
+Hints:
+	•	Use an ArrayList to manage your collection of animals.
+	•	This exercise is an opportunity to practice both inheritance and working with collections.
