@@ -4,42 +4,40 @@ import java.util.*;
 
 public class Lezione12 {
     public static void main(String[] args) {
-        /*
-        // ESERCIZIO 1
-        for (int num = 1; num <= 10; num++)
-            System.out.println("Il numero è: " + num);
-         */
 
-        /*
+        // ESERCIZIO 1
+        for (int num = 0; num < 10; num++)
+            System.out.println("Il numero è: " + num+1);
+
+
         // ESERCIZIO 2 > fraintendimento nella richiesta
 
         int somma = 0;
 
-        for (int num = 1; num <= 100; num++) {
+        for (int num = 0; num < 100; num++) {
             if (num % 2 == 0) {
                 somma += num;
             }
         }
         System.out.println("La somma dei numeri pari da 1 a 100 è: " + somma);
-         */
 
-        /*
+
+
         // ESERCIZIO 3
-        for (int num = 1; (5*num)<=50; num++) {
+        for (int num = 0; (5*num)<50; num++) {
             System.out.println(5 + " * " + num + " = " + (5*num));
         }
-         */
 
-        /*
+
+
         // ESERCIZIO 4 > non risolto senza chat
         int[] numeri = {3, 7, 2, 9, 4};
 
         for (int numero : numeri) {
             System.out.println(numero);
         }
-         */
 
-        /*
+
         // ESERCIZIO 5 > non completato
 
         Scanner scanner = new Scanner(System.in);
@@ -56,7 +54,7 @@ public class Lezione12 {
             System.out.println("Il fattoriale di " + n + " è: " + fattoriale);
         }
         scanner.close();
-         */
+
 
         /*
         // ESERCIZIO 6 > non compilato autonomamente

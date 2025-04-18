@@ -108,10 +108,13 @@ public class Lezione14 {
          */
 
         // ESERCIZIO 10
-
+/*
         public static int doppio (int numero) {
             return numero*2;
         }
 
+ */
+
+        return 0;
     }
 }
